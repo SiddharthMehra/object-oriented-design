@@ -1,3 +1,7 @@
+//design patterns -> factory pattern used to create domain objects like Book and Member
+//delgation pattern -> librarian delegates the task of managing book status to bookItem
+//observer pattern -> used for notifications; member is notified when a bookItem status changes
+
 enum BookFomat {
     HARDCOVER, PAPERBACK, AUDIOBOOK, EBOOK, NEWSPAPER, MAGAZINE, JOURNAL
 }
@@ -194,5 +198,4 @@ public class Library {
         }
         return library;
     }
-
 }
