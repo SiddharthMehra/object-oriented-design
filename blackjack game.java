@@ -1,3 +1,5 @@
+//iterator and state design patterns are used
+
 public enum Suit {
     HEART, SPADE, CLUB, DIAMOND
 }
